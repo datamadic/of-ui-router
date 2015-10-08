@@ -108,7 +108,7 @@ fin.desktop.main(function(){
     name: 'ui', 
     uuid: 'ui', 
     autoShow:true, 
-    url:  './publisher.html'
+    url:  'http://datamadic.github.io/of-ui-router/publisher.html'
   }, function(){wap.run()})
 });
 
