@@ -1,0 +1,20 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "router",
+        "description": "OpenFin POC",
+        "url": "http://local:8000/sample/#/",
+        "uuid": "router",
+        "autoShow": true,
+        "delay_connection": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "router"
+    }
+}
