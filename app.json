@@ -3,7 +3,7 @@
     "startup_app": {
         "name": "router",
         "description": "OpenFin POC",
-        "url": "https://raw.githubusercontent.com/datamadic/of-ui-router/gh-pages/index.html",
+        "url": "http://datamadic.github.io/of-ui-router/",
         "uuid": "router",
         "autoShow": true,
         "delay_connection": true
