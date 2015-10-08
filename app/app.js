@@ -108,7 +108,7 @@ fin.desktop.main(function(){
     name: 'ui', 
     uuid: 'ui', 
     autoShow:true, 
-    url: location.origin + './publisher.html'
+    url:  './publisher.html'
   }, function(){wap.run()})
 });
 
