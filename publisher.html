@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	fin.desktop.main(init);
+
+	function init() {
+		var iab = fin.desktop.InterApplicationBus;
+
+		//var intv = setInterval(iab.publish.bind(null, 'test', 'test'), 1000);
+		var intv = setInterval(function(){
+			console.log('asdf');
+			iab.publish('test', 'test');
+		}, 1000);
+	}
+	</script>
+</body>
+</html>
